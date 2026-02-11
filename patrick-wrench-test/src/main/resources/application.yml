@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xfg-wrench-test-app
+  profiles:
+    active: dev
