@@ -141,3 +141,9 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 26-02-11.22:44:26.383 [main            ] INFO  AccountNode            - 模拟查询用户级别 level:0
 26-02-11.22:44:26.383 [main            ] INFO  MemberLevel1Node       - 【级别节点-1】规则决策树 userId:xiaofuge
 26-02-11.22:44:26.513 [main            ] INFO  DesignFrameworkTest    - 测试结果:level1{"dataObjects":{"accountType02":"拦截","accountType01":"账户可用"},"level":0}
+26-02-11.22:53:55.850 [main            ] INFO  Link01Test             - Starting Link01Test using Java 17.0.12 on LAPTOP-SI4PSVFC with PID 26616 (started by patrick in D:\Workspace\GitHub\patrick-wrench\patrick-wrench-test)
+26-02-11.22:53:55.852 [main            ] INFO  Link01Test             - The following 1 profile is active: "dev"
+26-02-11.22:53:56.901 [main            ] INFO  Link01Test             - Started Link01Test in 1.385 seconds (JVM running for 2.081)
+26-02-11.22:53:57.416 [main            ] INFO  RuleLogic101           - link model01 RuleLogic101
+26-02-11.22:53:57.416 [main            ] INFO  RuleLogic102           - link model01 RuleLogic102
+26-02-11.22:53:57.518 [main            ] INFO  Link01Test             - 测试结果:"link model01 单实例链"
