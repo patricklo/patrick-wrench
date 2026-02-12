@@ -7,8 +7,7 @@
         <version>3.0.2</version>
     </parent>
     <artifactId>patrick-wrench-test</artifactId>
-    <name>Archetype - patrick-wrench-test</name>
-    <url>http://maven.apache.org</url>
+    <name>patrick-wrench-test</name>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -47,6 +46,13 @@
             <artifactId>commons-codec</artifactId>
         </dependency>
 
+        <!-- 动态配置中心 -->
+        <dependency>
+            <groupId>com.patrick.wrench</groupId>
+            <artifactId>patrick-wrench-rate-limiter</artifactId>
+            <version>3.0.2</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- 动态配置中心 -->
         <dependency>
             <groupId>com.patrick.wrench</groupId>

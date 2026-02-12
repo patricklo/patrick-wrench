@@ -38,3 +38,5 @@ build/
 ### Mac OS ###
 .DS_Store
 /patrick-wrench-test/data
+/data
+/patrick-wrench-test/data

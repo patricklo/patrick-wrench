@@ -7,7 +7,7 @@
         <version>3.0.2</version>
     </parent>
     <artifactId>patrick-wrench-starter-design-framework</artifactId>
-    <name>Archetype - patrick-wrench-starter-design-framework</name>
+    <name>patrick-wrench-starter-design-framework</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
