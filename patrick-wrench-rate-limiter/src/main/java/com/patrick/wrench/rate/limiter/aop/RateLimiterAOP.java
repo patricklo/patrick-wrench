@@ -57,9 +57,9 @@ public class RateLimiterAOP {
 
         // 黑名单拦截
         if (!"all".equalsIgnoreCase(keyAttr)
-                && rateLimiterAccessInterceptor.blackListCount() != 0
+                && rateLimiterAccessInterceptor.blackListCountLimit() != 0
                 && null != blackList.getIfPresent(keyAttr)
-                && blackList.getIfPresent(keyAttr) > rateLimiterAccessInterceptor.blackListCount()
+                && blackList.getIfPresent(keyAttr) > rateLimiterAccessInterceptor.blackListCountLimit()
         ) {
             log.info("限流-黑名单拦截（24h）:{}", keyAttr);
             return fallbackMethodResult(jp, rateLimiterAccessInterceptor.fallbackMethod());
@@ -74,7 +74,7 @@ public class RateLimiterAOP {
 
         //限流拦截
         if (!rateLimiter.tryAcquire()) {
-            if (rateLimiterAccessInterceptor.blackListCount() != 0) {
+            if (rateLimiterAccessInterceptor.blackListCountLimit() != 0) {
                 if (null == blackList.getIfPresent(keyAttr)){
                     blackList.put(keyAttr, 1l);
                 } else {
