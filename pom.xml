@@ -13,6 +13,7 @@
         <module>patrick-wrench-starter-design-framework</module>
         <module>patrick-wrench-test</module>
         <module>patrick-wrench-rate-limiter</module>
+        <module>fiiniq-api-rate-limiter</module>
     </modules>
 
     <properties>
