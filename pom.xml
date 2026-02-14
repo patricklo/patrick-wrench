@@ -14,6 +14,7 @@
         <module>patrick-wrench-test</module>
         <module>patrick-wrench-rate-limiter</module>
         <module>fiiniq-api-rate-limiter</module>
+        <module>patrick-wrench-state-design-pattern</module>
     </modules>
 
     <properties>
